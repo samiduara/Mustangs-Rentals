@@ -1,5 +1,6 @@
 ## Intro
       - Technologies
+      This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
       - Getting Started
       - Unsolved Problems
       - Future Enhancements
@@ -15,8 +16,7 @@
 
 
 
-
-# Trello Board with following columns: Icebox - Current/MVP - Completed - Wireframes - User Stories
+ Trello Board with following columns: Icebox - Current/MVP - Completed - Wireframes - User Stories
 
 
 
