@@ -1,9 +1,7 @@
 ## Intro
-      - Technologies
-      This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-      - Getting Started
-      - Unsolved Problems
-      - Future Enhancements
+ 
+ This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+     
       
       
       
@@ -15,8 +13,9 @@
 ## Wireframes
 
 
+## Trello Board 
 
- Trello Board with following columns: Icebox - Current/MVP - Completed - Wireframes - User Stories
+https://trello.com/b/QhedZESk/mustang-rentals
 
 
 
