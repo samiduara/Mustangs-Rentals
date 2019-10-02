@@ -1,11 +1,20 @@
-#- Intro
+## Intro
       - Technologies
       - Getting Started
       - Unsolved Problems
       - Future Enhancements
-2) #ERD
-3) #Wireframes
-4) #Trello Board with following columns: Icebox - Current/MVP - Completed - Wireframes - User Stories
+      
+      
+      
+## ERD
+
+
+## Wireframes
+
+
+
+
+## Trello Board with following columns: Icebox - Current/MVP - Completed - Wireframes - User Stories
 
 
 
