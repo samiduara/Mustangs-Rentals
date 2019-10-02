@@ -9,12 +9,14 @@
 ## ERD
 
 
+
+
 ## Wireframes
 
 
 
 
-## Trello Board with following columns: Icebox - Current/MVP - Completed - Wireframes - User Stories
+# Trello Board with following columns: Icebox - Current/MVP - Completed - Wireframes - User Stories
 
 
 
