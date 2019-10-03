@@ -7,10 +7,18 @@
       
 ## ERD
 
+![ERD](https://i.imgur.com/U428Nex.jpg)
+
 
 
 
 ## Wireframes
+
+
+
+![Wire Frame](https://i.imgur.com/kUp6cCl.jpg)
+
+
 
 
 ## Trello Board 
@@ -18,9 +26,6 @@
 https://trello.com/b/QhedZESk/mustang-rentals
 
 
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
