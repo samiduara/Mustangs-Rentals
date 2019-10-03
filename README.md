@@ -9,7 +9,7 @@ Mustang Car Rental Services is a standard car rental APP  that will be located i
 
 We chose to operate in these cities because we know that our car rental services will be in high demand due to the growing numbers of corporate organization and increase in business activities in these cities.
 
-MUstang Car Rental Services. will offer care rental services such as leisure car rental, business car rental, car leasing, and car sharing services at a standard price . We are set to service a wide range of clientele base in the locations where we choose to operate.
+Mustang Car Rental Services. will offer care rental services such as leisure car rental, business car rental, car leasing, and car sharing services at a standard price . We are set to service a wide range of clientele base in the locations where we choose to operate.
       
       
       
@@ -35,11 +35,17 @@ https://trello.com/b/QhedZESk/mustang-rentals
 
 
 ## Technologies Used:
+
 HTML/CSS/JavaScript
+
 Bootstrap
+
 MongoDB
+
 Express
+
 ReactJS
+
 NodeJS
 
 
