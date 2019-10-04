@@ -11,12 +11,12 @@ class Header extends Component {
                         <div className="meganavContainerUp">
                             <div className="container">
                                 <ul className="meganav-up nav navbar-nav navbar-right">
-                                    <li className="top-buttons grey">
+                                    {/* <li className="top-buttons grey">
                                         <a href="#">USA <i className="fas fa-caret-down"></i> </a>
                                     </li>
                                     <li className="top-buttons orange">
                                         <a href="#">Choose A Country <i className="fas fa-caret-down"></i></a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div> 
                         </div>
@@ -27,11 +27,11 @@ class Header extends Component {
                             </a>
                             <div className="container">
                                 <ul className="meganav-down nav navbar-nav navbar-left">
-                                    <li className="top-buttons orange">
+                                    {/* <li className="top-buttons orange">
                                         <a href="#">
                                             <span>Help</span>
                                         </a>
-                                    </li>
+                                    </li> */}
                                     <li className="loginMenu">
                                         <a href="#">
                                             <span>Terms &amp; Conditions</span>
