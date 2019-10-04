@@ -1,13 +1,21 @@
-## Intro
-      - Technologies
-      This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-      - Getting Started
-      - Unsolved Problems
-      - Future Enhancements
+
+## MUSTANG RENTAL SERVICE
+
+"Have you ever travelled and you have no one to pick you up at the airport; or the Rental company decided to stiff you up with hidden fees. Look no further Mustang Rentals will charge you a dailly minimum fee with no hidden charges"
+
+## Who We Are
+
+Mustang Car Rental Services is a standard car rental APP  that will be located in Garland DFW area– United States of America and we plans to also cover all the metropolitants areas all over the world. City such as  Nairobi, Newyork, Tokyo, Pretoria, Cairo, Houston, West Palm Beach, Palm Harbor, Deltona, Orlando, Palm Bay and Panama City.
+
+We chose to operate in these cities because we know that our car rental services will be in high demand due to the growing numbers of corporate organization and increase in business activities in these cities.
+
+Mustang Car Rental Services. will offer care rental services such as leisure car rental, business car rental, car leasing, and car sharing services at a standard price . We are set to service a wide range of clientele base in the locations where we choose to operate.
       
       
       
 ## ERD
+
+![ERD](https://i.imgur.com/U428Nex.jpg)
 
 
 
@@ -16,12 +24,31 @@
 
 
 
- Trello Board with following columns: Icebox - Current/MVP - Completed - Wireframes - User Stories
+![Wire Frame](https://i.imgur.com/kUp6cCl.jpg)
 
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Trello Board 
+
+https://trello.com/b/QhedZESk/mustang-rentals
+
+
+## Technologies Used:
+
+HTML/CSS/JavaScript
+
+Bootstrap
+
+MongoDB
+
+Express
+
+ReactJS
+
+NodeJS
+
+
 
 ## Available Scripts
 
@@ -35,58 +62,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# Mustangs-Rentals
