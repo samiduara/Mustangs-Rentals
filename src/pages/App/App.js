@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import './App.css';
 import NavBar from '../../components/NavBar/NavBar'
 import userService from '../../utils/userService'
+import Footer from '../../components/footer'
 import LoginPage from '../LoginPage/LoginPage'
 import SignupPage from '../SignupPage/SignupPage'
 
@@ -44,7 +45,7 @@ class App extends Component {
                   handleSignupOrLogin={this.handleSignupOrLogin}
               />
             } />
-
+          <Footer/>
           </Switch>
 </div>
       
