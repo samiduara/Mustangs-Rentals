@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
 import './LoginPage.css';
 import userService from '../../utils/userService';
 class LoginPage extends Component {
@@ -44,7 +43,6 @@ class LoginPage extends Component {
          </div>
          <div className="form-group">
            <div className="col-sm-12 text-center">
-           <Button type="submit" variant="success">Log In</Button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
              <Link to='/'>Cancel</Link>
            </div>
          </div>
