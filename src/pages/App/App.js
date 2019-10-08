@@ -10,9 +10,12 @@ import SignupPage from '../SignupPage/SignupPage'
 import Dashboard from '../../components/Dashboard'
 
 
-class App extends Component {
-  state = {
-    user: userService.getUser()
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      user: userService.getUser()
+    }
   }
   
   handleLogout = () => {
@@ -26,41 +29,32 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App"> 
+        <Header user={this.state.user} handleLogout={this.handleLogout} />  
         <Switch>
-        <Route exact path='/' render={() => 
-              <Header
-                user={this.state.user}
-                handleLogout={this.handleLogout}
-              />  
-            } />
-    <Route exact path='/' render={() => 
+          <Route exact path='/' render={() => 
               <Dashboard
                 user={this.state.user}
                 handleLogout={this.handleLogout}
               />  
-            } /> 
-    <Route exact path='/' render={() => 
-              <Footer
-                user={this.state.user}
-                handleLogout={this.handleLogout}
-              />  
-            } />            
-    <Route path='/signup' render={({history}) => 
-              <SignupPage 
-                history={history}
-                handleSignupOrLogin={this.handleSignupOrLogin}
-              />
-            } />
-  <Route path='/login' render={({history}) => 
-              <LoginPage 
-                  history={history}
-                  handleSignupOrLogin={this.handleSignupOrLogin}
-              />
-            } />
-          </Switch>
-         
-          
+          }/>         
+         <Route path='/signup' render={({history}) => 
+            <SignupPage 
+              history={history}
+              handleSignupOrLogin={this.handleSignupOrLogin}
+            />
+          }/>
+          <Route path='/login' render={({history}) => 
+            <LoginPage 
+              history={history}
+              handleSignupOrLogin={this.handleSignupOrLogin}
+            />
+          } /> 
+       </Switch>
+        <Footer
+         user={this.state.user}
+         handleLogout={this.handleLogout}
+       />     
 </div>
       
     );

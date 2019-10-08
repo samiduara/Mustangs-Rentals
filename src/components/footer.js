@@ -4,19 +4,19 @@ import React, { Component } from 'react';
 class Footer extends React.Component{
     render(){
     return (
-        <div className={this.props.progress===2 ? 'meganav navbar navfooter-results' : 'meganav navbar navfooter' }>
-            <div className="container large footer">
+<div className={this.props.progress===2 ? 'meganav navbar navfooter-results' : 'meganav navbar navfooter' }>
+            <div className="container small footer">
                 <div className="footer-object"> 
-                    <p className="footer-subtitle">mustangrentals</p>
+                    {/* <p className="footer-subtitle">mustangrentals</p>
                     <ul className="footer-list">
                         <li>Home</li>
                         <li>Privacy</li>
                         <li>Services</li>
                         <li>Partners</li>
                         <li>News</li>
-                    </ul>
+                    </ul> */}
                 </div>
-                <div className="footer-object"> 
+                {/* <div className="footer-object"> 
                     <p className="footer-subtitle">About</p>
                     <ul className="footer-list">
                         <li>Latest News</li>
@@ -24,20 +24,20 @@ class Footer extends React.Component{
                         <li>Careers</li>
                         <li>Terms of use</li>
                     </ul>
-                </div>
-                <div className="footer-object"> 
+                </div> */}
+                {/* <div className="footer-object"> 
                     <p className="footer-subtitle">Support</p>
                     <ul className="footer-list">
                         <li>Contact us</li>
                         <li>Find your invoice</li>
                         <li>FAQ</li>
                     </ul>
-                </div>
+                </div> */}
                 <div className="footer-object"> 
-                    <p className="footer-subtitle">Recent Tweets</p>
+                    {/* <p className="footer-subtitle">Recent Tweets</p>
                     <ul className="footer-list">
                         <li>@sam i love mustang rentals so much, do you too?</li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className="footer-object highlight"> 
                     <p className="footer-support highlight">Online Support</p>
@@ -49,10 +49,6 @@ class Footer extends React.Component{
         </div>
     )
     }
-}
+};
 
-const mapStateToProps = state => ({
-    ...state
-});
-
-export default (mapStateToProps)(Footer);
+export default Footer;

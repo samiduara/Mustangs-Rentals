@@ -33,11 +33,9 @@ class CarBookingFlow extends Component {
                         isActive={this.props.progress ===4 ? true : false} 
                     />
                 </ul>
-            </div>
-        )
+        </div>
+    )
     }
-}
-const mapStateToProps = state => ({
-    ...state
-});
-export default (mapStateToProps)(CarBookingFlow);
+};
+
+export default CarBookingFlow;

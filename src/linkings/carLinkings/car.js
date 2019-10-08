@@ -100,12 +100,7 @@ Car.propTypes = {
     fuel: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired
 }
-const mapStateToProps = state => ({
-    ...state
-  });
   
-const mapDispatchToProps = dispatch => ({
-    setProgress: (payload) => dispatch(setProgresss(payload)),
-    setCar: (payload) => dispatch(setCar(payload))
-})
-export default (mapStateToProps,mapDispatchToProps)(Car);
+
+
+export default (Car);

@@ -4,7 +4,7 @@ import ChooseCar from '../linkings/chooseCar';
 import Extras from '../linkings/carLinkings/car';
 import Book from '../linkings/carLinkings/CarBooking';
 
-class Dashboard extends Component {
+class Dashboard extends React.Component {
     render(){
         return (
             <div>
@@ -31,9 +31,8 @@ class Dashboard extends Component {
             </div>
         )
     }
-}
-const mapStateToProps = state => ({
-    ...state
-})
 
-export default (mapStateToProps)(Dashboard);
+
+};
+
+export default Dashboard;

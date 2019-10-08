@@ -70,13 +70,9 @@ class Book extends Component {
                 :
                 <button id="confirm-booking" onClick={() => this.setState({ bookingConfirmed: true })}>Confirm Booking</button>
             }
-            </div>
-        )
+              </div>
+    )
     }
-}
+};
 
-const mapStateToProps = state => ({
-    ...state
-});
-
-export default (mapStateToProps)(Book)
+export default Book;
