@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import CreateRequest from '../linkings/createRequest'
 import ChooseCar from '../linkings/chooseCar';
 import Extras from '../linkings/carLinkings/car';
-import Book from '../linkings/carBooking';
+import Book from '../linkings/carLinkings/CarBooking';
 
 class Dashboard extends Component {
     render(){

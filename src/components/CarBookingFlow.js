@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Flow from '../linkingss/flow';
-import '../pagess/styles/booking.css';
+import '../linkings/carLinkings/CarBooking';
 
 
 class CarBookingFlow extends Component {

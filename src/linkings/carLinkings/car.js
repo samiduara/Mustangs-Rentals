@@ -12,7 +12,7 @@ import toyotaTundra from '../../pages/images/Toyota_Tundra.jpg';
 import toyotaLandcruiser from '../../pages/images/Toyota_Landcruiser.jpg';
 import bmwX6 from '../../pages/images/Bmw_X6.jpg';
 import mercedesGwagon from '../../pages/images/Mercedes_Gwagon.jpg';
-
+import jeepWrangler from '../../pages/images/Jeep_Wrangler.jpg';
 class Car extends Component {
     getImage = carName => {
         if(carName === 'Chevy Tahoe') {
@@ -41,6 +41,9 @@ class Car extends Component {
         }
         else if(carName === 'BMW X6') {
             return bmwX6;
+        }
+        else if(carName === 'Jeep Wrangler') {
+            return jeepWrangler;
         }
     }
     render(){

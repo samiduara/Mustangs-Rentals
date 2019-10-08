@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {data} from '../constants/data';
+import {data} from '../../components/constants/data';
 import chevyTahoe from '../../pages/images/Chevy_Tahoe.jpg';
 import fordMustang from '../../pages/images/Ford_Mustang.jpg';
 import fordRaptor from '../../pages/images/Ford_Raptor.jpg';
@@ -8,8 +8,9 @@ import peterBit from '../../pages/images/Peter_Bit.jpg';
 import landRover from '../../pages/images/Land_Rover.jpg';
 import toyotaTundra from '../../pages/images/Toyota_Tundra.jpg';
 import toyotaLandcruiser from '../../pages/images/Toyota_Landcruiser.jpg';
+import mercedesGwagon from '../../pages/images/Mercedes_Gwagon.jpg';
 import bmwX6 from '../../pages/images/Bmw_X6.jpg';
-
+import jeepWrangler from '../../pages/images/Jeep_Wrangler.jpg';
 class Book extends Component {
     state = {
         bookingConfirmed: false
@@ -45,6 +46,9 @@ class Book extends Component {
         }
         else if(carName === 'BMW X6') {
             return bmwX6;
+        }
+        else if(carName === 'Jeep Wrangler') {
+            return jeepWrangler;
         }
     }
     render(){
