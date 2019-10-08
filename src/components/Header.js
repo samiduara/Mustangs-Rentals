@@ -15,11 +15,14 @@ class Header extends Component {
                         <div className="meganavContainerUp">
                             <div className="container">
                                 <ul className="meganav-up nav navbar-nav navbar-right">
-                                    <li className="top-buttons grey">
-                                        <a href=" ">USA <i className="fas fa-caret-down"></i> </a>
-                                    </li>
                                     <li className="top-buttons orange">
-                                        <a href=" ">Choose A Country <i className="fas fa-caret-down"></i></a>
+                                        <a href="">Choose A Country <i className="fas fa-caret-down"></i></a>
+                                        <select><option value="ISO 3166-2:AX">Åland Islands</option>
+	<option value="ISO 3166-2:UA">Kenya</option>
+	<option value="ISO 3166-2:AE">United Arab Emirates</option>
+	<option value="ISO 3166-2:GB">United Kingdom</option>
+	<option value="ISO 3166-2:US">United States</option>
+	<option value="ISO 3166-2:UM">United States Minor Outlying Islands</option></select>
                                     </li>
                                 </ul>
                             </div> 
@@ -52,14 +55,14 @@ class Header extends Component {
                             </div>
                             <div className="container reg">
                                 <ul className="meganav-down nav navbar-nav navbar-right register">
-                                    <li className="top-buttons reg-button">
+                                    <li className=" ">
                                         <a href=" ">
-                                            <span>Register</span>
+                                            {/* <span>Register</span> */}
                                         </a>
                                     </li>
-                                    <li className="top-buttons log-button">
+                                    <li className=" ">
                                         <a href=" ">
-                                            <span>Sign In</span>
+                                            {/* <span>Sign In</span> */}
                                         </a>
                                     </li>
                                 </ul>
