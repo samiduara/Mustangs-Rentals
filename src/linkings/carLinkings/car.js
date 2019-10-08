@@ -2,17 +2,16 @@ import React, {Component} from 'react';
 import setProgresss from '../../actions/setProgress';
 import setCar from '../../actions/setCar';
 import PropTypes from "prop-types";
-import chevyTahoe from '../../extras/images/Chevy_Tahoe.jpg';
-import fordMustang from '../../extras/images/Ford_Mustang.jpg';
-import fordRaptor from '../../extras/images/Ford_Raptor.jpg';
-import gmcSiera from '../../extras/images/GMC_Sierra.jpg';
-import peterBit from '../../extras/images/Peter_Bit.jpg';
-import landRover from '../../extras/images/Land_Rover.jpg';
-import toyotaTundra from '../../extras/images/Toyota_Tundra.jpg';
-import toyotaLandcruiser from '../../extras/images/Toyota_Landcruiser.jpg';
-import jeepWrangler from '../../extras/images/Jeep_Wrangler.jpg';
-import bmwX6 from '../../extras/images/BMW_X6.jpg';
-import mercedesGwagon from '../../extras/images/Mercedes_Gwagon.jpg';
+import chevyTahoe from '../../pages/images/Chevy_Tahoe.jpg';
+import fordMustang from '../../pages/images/Ford_Mustang.jpg';
+import fordRaptor from '../../pages/images/Ford_Raptor.jpg';
+import gmcSiera from '../../pages/images/GMC_Sierra.jpg';
+import peterBit from '../../pages/images/Peter_Bit.jpg';
+import landRover from '../../pages/images/Land_Rover.jpg';
+import toyotaTundra from '../../pages/images/Toyota_Tundra.jpg';
+import toyotaLandcruiser from '../../pages/images/Toyota_Landcruiser.jpg';
+import bmwX6 from '../../pages/images/Bmw_X6.jpg';
+import mercedesGwagon from '../../pages/images/Mercedes_Gwagon.jpg';
 
 class Car extends Component {
     getImage = carName => {
@@ -39,9 +38,6 @@ class Car extends Component {
         }
         else if(carName === 'peter Bit') {
             return peterBit;
-        }
-        else if(carName === 'Jeep Wrangler') {
-            return jeepWrangler;
         }
         else if(carName === 'BMW X6') {
             return bmwX6;

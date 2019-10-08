@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import CreateRequest from '../plugins/createRequest';
-import ChooseCar from '../plugins/chooseCar';
-import Extras from '../linking/pages';
-import Book from '../linking/carBooking';
+import CreateRequest from '../linkings/createRequest'
+import ChooseCar from '../linkings/chooseCar';
+import Extras from '../linkings/carLinkings/car';
+import Book from '../linkings/carBooking';
 
 class Dashboard extends Component {
     render(){

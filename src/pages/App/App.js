@@ -7,6 +7,7 @@ import userService from '../../utils/userService'
 import Footer from '../../components/footer'
 import LoginPage from '../LoginPage/LoginPage'
 import SignupPage from '../SignupPage/SignupPage'
+import Dashboard from '../../components/Dashboard'
 
 
 class App extends Component {
@@ -33,6 +34,18 @@ class App extends Component {
                 handleLogout={this.handleLogout}
               />  
             } />
+    <Route exact path='/' render={() => 
+              <Dashboard
+                user={this.state.user}
+                handleLogout={this.handleLogout}
+              />  
+            } /> 
+    <Route exact path='/' render={() => 
+              <Footer
+                user={this.state.user}
+                handleLogout={this.handleLogout}
+              />  
+            } />            
     <Route path='/signup' render={({history}) => 
               <SignupPage 
                 history={history}
@@ -45,8 +58,9 @@ class App extends Component {
                   handleSignupOrLogin={this.handleSignupOrLogin}
               />
             } />
-          <Footer/>
           </Switch>
+         
+          
 </div>
       
     );
