@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import setProgresss from '../../actions/setProgress';
+import setProgress from '../../actions/setProgress';
 import setCar from '../../actions/setCar';
 import PropTypes from "prop-types";
 import chevyTahoe from '../../pages/images/Chevy_Tahoe.jpg';

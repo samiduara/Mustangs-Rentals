@@ -7,7 +7,8 @@ import Book from '../linkings/carLinkings/CarBooking';
 class Dashboard extends React.Component {
     render(){
         return (
-            <div>
+            <div className="Dashboard-object"> 
+                {console.log(this.props.progress)}
                 {
                     this.props.progress ===1
                     &&
@@ -28,6 +29,7 @@ class Dashboard extends React.Component {
                     &&
                     <Book />
                 }
+                <h1>this me testing this page</h1>
             </div>
         )
     }
