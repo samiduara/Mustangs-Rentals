@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import InputRange from 'react-input-range';
+import InputRange from './node_modules/react-input-range';
 
 class CarFilter extends Component {
     state = {
@@ -67,8 +67,7 @@ class CarFilter extends Component {
                     </div>
                     <div className="info-description">
                         <p>
-                            <strong>Please Note:</strong>The Vehicles shown are examples.Specific model with a car class may vary
-                            in availability and features, such as passenger seat, luggage capacity and mileage.
+                            <strong>Please Note:</strong>We believe in creating a fun and friendly car rental experience for employees and customers alike.
                         </p>
                     </div>
                 </div>

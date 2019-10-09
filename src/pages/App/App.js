@@ -16,7 +16,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      user: userService.getUser()
+      user: userService.getUser(),
     }
   }
   
@@ -38,6 +38,7 @@ class App extends React.Component {
               <Dashboard
                 user={this.state.user}
                 handleLogout={this.handleLogout}
+                formProgress={this.state.formProgress}
               />  
           }/>         
          <Route path='/signup' render={({history}) => 
@@ -57,7 +58,7 @@ class App extends React.Component {
          user={this.state.user}
          handleLogout={this.handleLogout}
        />     
-</div>
+      </div>
       
     );
   }

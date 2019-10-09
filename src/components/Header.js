@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../pages/styles/Header.css';
 import NavBar from './NavBar/NavBar'
-
 class Header extends Component {
     render(){
         return (
@@ -28,7 +27,10 @@ class Header extends Component {
                             </div> 
                         </div>
                         <div className="meganavContainerDown">
-                                <span className="title"><h1>Mustang Rentals</h1></span>
+
+                                <span className="title"><h2>Mustang Rentals</h2></span>
+
+                            
                             <div className="container">
                                 <ul className="meganav-down nav navbar-nav navbar-left">
                                     <li className="top-buttons orange">

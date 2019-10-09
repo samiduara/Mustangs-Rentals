@@ -17,7 +17,7 @@ import jeepWrangler from '../../pages/images/Jeep_Wrangler.jpg';
 class Car extends Component {
     getImage = carName => {
         if(carName === 'Chevy Tahoe') {
-            return chevyTahoe;
+            return chevyTahoe
         }else if(carName === 'Ford Mustang') {
             return fordMustang;
         }else if(carName === 'Ford Raptor'){
@@ -51,6 +51,7 @@ class Car extends Component {
         const {
             carName,vehicleType,topSeller,noPassengers,description,transmission,airConditioning,fuel,price
         }= this.props
+        
         return(
             <div>
                 <div className="car-details">
@@ -89,6 +90,7 @@ class Car extends Component {
         )
     }
 }
+{console.log(Image)}
 
 Car.propTypes = {
     carName: PropTypes.string.isRequired,
@@ -104,4 +106,4 @@ Car.propTypes = {
   
 
 
-export default (Car);
+export default Car;

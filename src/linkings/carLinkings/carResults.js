@@ -5,7 +5,7 @@ import { sortBy } from 'lodash';
 class CarResults extends Component {
     state = {
         currentPage: 1,
-        carsPerPage: 11
+        carsPerPage: 5
     }
 
     pageNext = event => {

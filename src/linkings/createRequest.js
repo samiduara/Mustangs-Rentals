@@ -74,8 +74,8 @@ class CreateRequest extends Component{
                     this.state.textAdded
                     &&
                     <button class="btn orange" type="button" onClick={ () => {
-                        this.props.setProgress(2);
-                        this.props.setLocation(this.state.location)
+                        // this.props.setProgress[2]
+                        this.setState({ location: this.state.location})
                     }}>
                             <span>Choose a Car</span>
                     </button>
