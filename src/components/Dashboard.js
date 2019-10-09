@@ -4,11 +4,11 @@ import ChooseCar from '../linkings/chooseCar';
 import Extras from '../linkings/carLinkings/car';
 import Book from '../linkings/carLinkings/CarBooking';
 
-class Dashboard extends React.Component {
+class Dashboard extends Component {
     render(){
         return (
             <div className="Dashboard-object"> 
-                {console.log(this.props.progress)}
+                {console.log(this.props.state)}
                 {
                     this.props.progress ===1
                     &&
@@ -29,7 +29,7 @@ class Dashboard extends React.Component {
                     &&
                     <Book />
                 }
-                <h1>this me testing this page</h1>
+                <h1>this me testing</h1>
             </div>
         )
     }

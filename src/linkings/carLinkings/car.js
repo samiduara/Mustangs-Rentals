@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import React, {Component} from 'react';
 import setProgress from '../../actions/setProgress';
 import setCar from '../../actions/setCar';
