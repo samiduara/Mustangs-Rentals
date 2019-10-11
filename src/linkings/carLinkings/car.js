@@ -14,6 +14,7 @@ import toyotaLandcruiser from '../../pages/images/Toyota_Landcruiser.jpg';
 import bmwX6 from '../../pages/images/Bmw_X6.jpg';
 import mercedesGwagon from '../../pages/images/Mercedes_Gwagon.jpg';
 import jeepWrangler from '../../pages/images/Jeep_Wrangler.jpg';
+
 class Car extends Component {
     getImage = carName => {
         if(carName === 'Chevy Tahoe') {
@@ -77,33 +78,28 @@ class Car extends Component {
                         </ul>
                     </div>
                     <button>[+] View Car Details</button>
+                    
                 </div>
                 <div className="price">
                     <p><strong>{`$${price}`}</strong></p>
                     <p>Unlimited Free miles included</p>
                     <button onClick={() => {
-                        this.props.setProgress(3);
-                        this.props.setCar(carName);
                     }}>Select</button>
                 </div>
             </div>
         )
     }
 }
-{console.log(Image)}
 
-Car.propTypes = {
-    carName: PropTypes.string.isRequired,
-    vehicleType: PropTypes.string.isRequired,
-    topSeller: PropTypes.bool.isRequired,
-    noPassengers: PropTypes.number.isRequired,
-    description: PropTypes.string.isRequired,
-    transmission:PropTypes.string.isRequired,
-    airConditioning: PropTypes.bool.isRequired,
-    fuel: PropTypes.string.isRequired,
-    price: PropTypes.number.isRequired
-}
+
+const mapStateToProps = state => ({
+    ...state
+  });
   
+const mapDispatchToProps = dispatch => ({
+    setProgress: (payload) => dispatch(setProgresss(payload)),
+    setCar: (payload) => dispatch(setCar(payload))
+})
 
 
 export default Car;

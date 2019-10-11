@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {data} from '../../components/constants/data';
+import {data} from '../../constants/data';
 import chevyTahoe from '../../pages/images/Chevy_Tahoe.jpg';
 import fordMustang from '../../pages/images/Ford_Mustang.jpg';
 import fordRaptor from '../../pages/images/Ford_Raptor.jpg';

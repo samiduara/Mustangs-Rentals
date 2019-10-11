@@ -1,8 +1,8 @@
-const setProgress = (payload) => {
+const setLocation = (payload) => {
     return {
-        type: 'progressChange',
+        type: "location",
         payload
     }
 }
 
-export default setProgress;
+export default setLocation;

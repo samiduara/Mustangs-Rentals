@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 import React, {Component} from 'react';
 
 
@@ -5,6 +7,7 @@ import React, {Component} from 'react';
 class CreateRequest extends Component{
     state = {
        location: '',
+       booking: '',
        textAdded: false
     }
 
@@ -71,10 +74,11 @@ class CreateRequest extends Component{
                     onPaste={this.handleLocationPaste}
                   />
                 {
+
                     this.state.textAdded
                     &&
                     <button class="btn orange" type="button" onClick={ () => {
-                        // this.props.setProgress[2]
+                        this.props.setProgress 
                         this.setState({ location: this.state.location})
                     }}>
                             <span>Choose a Car</span>

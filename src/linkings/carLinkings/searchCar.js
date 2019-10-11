@@ -129,4 +129,4 @@ class SearchCar extends Component {
     }
 }
 
-export default (SearchCar);
+export default SearchCar;

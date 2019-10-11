@@ -1,12 +1,14 @@
 const express = require('express');
 const router = express.Router();
-const usersCtrl = require('../../controllers/users');
+const carCtrl = require('../../controllers/cars');
 
 /*---------- Public Routes ----------*/
-router.post('/signup', usersCtrl.signup);
-router.post('/login', usersCtrl.login);
+
+//router.get('/cars',carCtrl.getAllCars);
 
 
+router.get('/cars', carCtrl.getAllCars);
+router.post('/cars', carCtrl.addCar);
 
 /*---------- Protected Routes ----------*/
 
