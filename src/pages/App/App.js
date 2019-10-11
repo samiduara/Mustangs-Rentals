@@ -10,11 +10,11 @@ import Footer from '../../components/footer'
 import LoginPage from '../LoginPage/LoginPage'
 import SignupPage from '../SignupPage/SignupPage'
 import Dashboard from '../../components/Dashboard'
-
+import MyCars from '../mycars/mycars'
 
 class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       user: userService.getUser(),
     }
@@ -23,6 +23,7 @@ class App extends React.Component {
   handleLogout = () => {
     userService.logout();
     this.setState({user: null});
+    // use history API to force page change to my saved cars
   }
 
   handleSignupOrLogin = () => {
@@ -30,6 +31,7 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(this.state)
     return (
       <div className="App"> 
         <Header user={this.state.user} handleLogout={this.handleLogout} />  
@@ -39,6 +41,12 @@ class App extends React.Component {
                 user={this.state.user}
                 handleLogout={this.handleLogout}
                 formProgress={this.state.formProgress}
+              />  
+          }/>         
+          <Route exact path='/mycars' render={() => 
+              <MyCars
+                user={this.state.user}
+                handleLogout={this.handleLogout}
               />  
           }/>         
          <Route path='/signup' render={({history}) => 
@@ -59,7 +67,6 @@ class App extends React.Component {
          handleLogout={this.handleLogout}
        />     
       </div>
-      
     );
   }
 }

@@ -7,8 +7,8 @@ const carCtrl = require('../../controllers/cars');
 //router.get('/cars',carCtrl.getAllCars);
 
 
-router.get('/cars', carCtrl.getAllCars);
-router.post('/cars', carCtrl.addCar);
+router.get('/', carCtrl.getAllCars);
+router.post('/', carCtrl.addCar);
 
 /*---------- Protected Routes ----------*/
 

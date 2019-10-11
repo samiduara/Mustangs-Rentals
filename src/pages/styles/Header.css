@@ -119,10 +119,10 @@ nav.meganav>.navbar-collapse {
     color: #8a8585;
 }
 .orange {
-    background-color: blue;
+    background-color: rgb(255, 251, 0);
 }
 .orange a {
-    color: #fff !important;
+    color: black !important;
 }
 .reg {
     margin-top: -71px;

@@ -4,32 +4,27 @@ import ChooseCar from '../linkings/chooseCar';
 import Extras from '../linkings/carLinkings/car.js';
 import Book from '../linkings/carLinkings/CarBooking';
 
+import API from '../utils/serverCalls'
+
 class Dashboard extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            carToSave: [],
+            carToSave: null,
         
         }
     }
 
-    async handleSubmit() {
-      // idea: async handle submit to add car to state, then sent the contents of state to server using async await
-      // step 1: add data to state
-      // stetp 2: send state data to server 
-      await this.setState({
-
-      }) 
-
-      // problem, passing this down and sourcing the data from static db
+  handleSubmit = async (e, car) => {
+        e.preventDefault();
+        API.addCar(car)
+        .then(console.log('this should work'))
     }   
-
-
 
     render(){
         return (
             <div className="Dashboard-object">
-                <ChooseCar />
+                <ChooseCar handleSubmit={this.handleSubmit}/>
             </div>
         )
     }

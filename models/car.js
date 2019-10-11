@@ -6,9 +6,9 @@ const mongoose = require('mongoose')
 const carSchema = new mongoose.Schema({
     make: { type: String },
     model: { type: String},
-    manufacture: { type: String},
-    fuel: { type: Number},
-    image: { type: String}
+    // manufacture: { type: String},
+    // fuel: { type: Number},
+    // image: { type: String}
 })
 // 3. export statement
 

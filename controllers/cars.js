@@ -2,8 +2,8 @@ const Car = require('../models/car')
 
 // 1. POST a car to the database
 module.exports ={
-
-    addCar,getAllCars
+    addCar,
+    getAllCars
 } 
 
 function addCar (req, res) {
@@ -15,7 +15,6 @@ function addCar (req, res) {
         res.status(400).json(err)
     }
 } 
-
 
 
 // 2. GET all cars saved by user
