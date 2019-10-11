@@ -1,3 +1,5 @@
+/* eslint-disable */ 
+
 import React, {Component} from 'react';
 import CreateRequest from '../linkings/createRequest'
 import ChooseCar from '../linkings/chooseCar';
@@ -25,9 +27,11 @@ class Dashboard extends Component {
         return (
             <div className="Dashboard-object">
                 <ChooseCar handleSubmit={this.handleSubmit}/>
+                <Book/>
             </div>
         )
     }
+    
 
 
 };
