@@ -3,8 +3,10 @@ const Car = require('../models/car')
 // 1. POST a car to the database
 module.exports ={
     addCar,
-    getAllCars
-} 
+    getAllCars,
+    delete:deleteCar,
+
+};
 
 function addCar (req, res) {
     try {
@@ -27,4 +29,10 @@ function getAllCars(req, res) {
     } catch (err) {
         console.log(err)
     }
+}
+
+function deleteCar(req, res) {
+    Car.findByIdAndRemove(req.params.id).then(function(car) {
+      res.status(200).json(car);
+    });
 }

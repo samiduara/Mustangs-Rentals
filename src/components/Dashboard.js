@@ -5,7 +5,6 @@ import CreateRequest from '../linkings/createRequest'
 import ChooseCar from '../linkings/chooseCar';
 import Extras from '../linkings/carLinkings/car.js';
 import Book from '../linkings/carLinkings/CarBooking';
-
 import API from '../utils/serverCalls'
 
 class Dashboard extends Component {
